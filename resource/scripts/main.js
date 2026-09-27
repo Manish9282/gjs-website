@@ -1,4 +1,4 @@
-const state = { metal: "gold", gender: "women", silverSection: "" };
+const state = { metal: "gold", gender: "women", silverSection: "", section: "" };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -27,9 +27,9 @@ function injectCommonLayouts(activePage) {
         </div>
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-20">
-                    <a href="/" class="flex items-center space-x-3 group">
+                    <a href="index.html" class="flex items-center space-x-3 group">
                         <div class="relative w-20 sm:w-24 h-auto flex items-center justify-center">
-                            <img src="/resource/images/Logo.png" alt="Gorri Jewellers and Sons Logo" class="w-full h-full object-contain">
+                            <img src="resource/images/Logo.webp" alt="Gorri Jewellers and Sons Logo" class="w-full h-full object-contain">
                         </div>
                         <div>
                             <span class="font-serif text-3xl sm:text-4xl font-bold gold-gradient-text">Gorri Jewellers & Sons</span>
@@ -37,10 +37,10 @@ function injectCommonLayouts(activePage) {
                     </a>
 
                     <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
-                        <a href="/" id="nav-home" class="nav-btn ${activePage==='home'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Home</a>
-                        <a href="/about/" id="nav-about" class="nav-btn ${activePage==='about'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">About Us</a>
-                        <a href="/collections/" id="nav-collections" class="nav-btn ${activePage==='collections'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Jewellery Collections</a>
-                        <a href="/stores/" id="nav-stores" class="nav-btn ${activePage==='stores'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Our Stores</a>
+                        <a href="index.html" id="nav-home" class="nav-btn ${activePage==='home'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Home</a>
+                        <a href="about.html" id="nav-about" class="nav-btn ${activePage==='about'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">About Us</a>
+                        <a href="collections.html" id="nav-collections" class="nav-btn ${activePage==='collections'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Jewellery Collections</a>
+                        <a href="stores.html" id="nav-stores" class="nav-btn ${activePage==='stores'?'text-gold-400 border-gold-500':'text-gray-300 border-transparent'} hover:text-gold-300 transition-colors py-2 border-b-2">Our Stores</a>
                     </nav>
 
                     <div class="flex items-center space-x-3">
@@ -56,10 +56,10 @@ function injectCommonLayouts(activePage) {
                 </div>
             </div>
             <div id="mobile-menu" class="hidden md:hidden bg-burgundy-950 border-b border-gold-500/30 px-4 pt-3 pb-6 space-y-3">
-                <a href="/" class="block w-full text-left py-2 px-3 rounded-md text-gold-300 font-medium hover:bg-burgundy-900">Home</a>
-                <a href="/about/" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">About Us</a>
-                <a href="/collections/" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">Jewellery Collections</a>
-                <a href="/stores/" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">Our Stores & Directions</a>
+                <a href="index.html" class="block w-full text-left py-2 px-3 rounded-md text-gold-300 font-medium hover:bg-burgundy-900">Home</a>
+                <a href="about.html" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">About Us</a>
+                <a href="collections.html" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">Jewellery Collections</a>
+                <a href="stores.html" class="block w-full text-left py-2 px-3 rounded-md text-gray-200 font-medium hover:bg-burgundy-900">Our Stores & Directions</a>
                 <div class="pt-2 border-t border-gold-500/20 flex flex-col gap-2">
                     <a href="https://wa.me/919821756547?text=Hello%20GJS%20Jewellers,%20I%20would%20like%20to%20inquire%20about%20your%20jewellery%20collection." target="_blank" rel="noopener" class="flex items-center justify-center space-x-2 bg-emerald-600 text-white py-2.5 rounded-lg text-sm font-semibold">
                         <i class="fa-brands fa-whatsapp text-lg"></i>
@@ -80,7 +80,7 @@ if (footerEl) {
                 <div class="space-y-4">
                     <div class="flex items-center space-x-3">
                         <div class="w-9 h-9 rounded-full border border-gold-500 flex items-center justify-center bg-burgundy-900 shrink-0">
-						<img src="/resource/images/GJS-SecondLogo.png" alt="Gorri Jewellers and Sons Logo" class="w-full h-full object-contain">
+						<img src="resource/images/GJS-SecondLogo.webp" alt="Gorri Jewellers and Sons Logo" class="w-full h-full object-contain">
                         </div>
                         <span class="font-serif text-lg font-bold gold-gradient-text">Gorri Jewellers & Sons</span>
                     </div>
@@ -99,10 +99,10 @@ if (footerEl) {
                     <div class="space-y-4">
                         <h4 class="font-serif font-bold text-gold-300 text-sm mb-3 pb-1 border-b border-gold-500/30 inline-block">Navigation</h4>
                         <ul class="space-y-3 text-xs text-gray-300">
-                            <li><a href="/" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Home Page</a></li>
-                            <li><a href="/about/" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Our Heritage</a></li>
-                            <li><a href="/collections/" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Jewellery Catalog</a></li>
-                            <li><a href="/stores/" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Showrooms</a></li>
+                            <li><a href="index.html" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Home Page</a></li>
+                            <li><a href="about.html" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Our Heritage</a></li>
+                            <li><a href="collections.html" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Jewellery Catalog</a></li>
+                            <li><a href="stores.html" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Showrooms</a></li>
                         </ul>
                     </div>
                     <div class="space-y-4">
@@ -202,9 +202,31 @@ function renderMetal(sub, out) {
         btn.type = "button";
         btn.className = `${chipBase} ${g === state.gender ? chipOn : chipOff}`;
         btn.textContent = GENDER_LABEL[g];
-        btn.addEventListener("click", () => { state.gender = g; renderCollections(); });
+        btn.addEventListener("click", () => { state.gender = g; state.section = ""; renderCollections(); });
         sub.appendChild(btn);
     });
+
+    const sections = CATALOG[state.metal][state.gender] || [];
+
+    // Third row: one chip per sub-category (Necklaces, Chains, Rings, ...).
+    // Only the selected section's grid is rendered below, so the page stays short
+    // even when a metal+gender has many sections.
+    const secNav = $("section-nav");
+    if (secNav) {
+        secNav.innerHTML = "";
+        if (!sections.some((s) => s.title === state.section)) {
+            state.section = sections.length ? sections[0].title : "";
+        }
+        sections.forEach((sec) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            const isActive = sec.title === state.section;
+            btn.className = `${chipBase} text-[11px] ${isActive ? chipOn : chipOff}`;
+            btn.textContent = `${sec.title} (${sec.items.length})`;
+            btn.addEventListener("click", () => { state.section = sec.title; renderCollections(); });
+            secNav.appendChild(btn);
+        });
+    }
 
     const head = document.createElement("div");
     head.className = "border-b border-gold-500/30 pb-4 mb-6";
@@ -214,18 +236,20 @@ function renderMetal(sub, out) {
         <p class="text-sm text-gray-600 mt-1">${esc(METAL_INTRO[state.metal])}</p>`;
     out.appendChild(head);
 
-    const sections = CATALOG[state.metal][state.gender] || [];
-    sections.forEach((sec) => {
+    const activeSection = sections.find((s) => s.title === state.section) || sections[0];
+    if (activeSection) {
         const secWrap = document.createElement("div");
-        secWrap.className = "mb-10";
+        secWrap.className = "mb-4";
         const secHead = document.createElement("div");
         secHead.className = "flex items-center gap-x-3 border-l-4 border-gold-500 pl-3 mb-5";
-        secHead.innerHTML = `<h3 class="font-serif text-xl sm:text-2xl font-bold text-burgundy-800">${esc(sec.title)}</h3>`;
+        secHead.innerHTML = `<h3 class="font-serif text-xl sm:text-2xl font-bold text-burgundy-800">${esc(activeSection.title)}</h3>`;
         secWrap.appendChild(secHead);
-        const path = `${METAL_LABEL[state.metal]}, ${GENDER_LABEL[state.gender]} - ${sec.title}`;
-        secWrap.appendChild(makeGrid(sec.items, path));
+        const path = `${METAL_LABEL[state.metal]}, ${GENDER_LABEL[state.gender]} - ${activeSection.title}`;
+        secWrap.appendChild(makeGrid(activeSection.items, path));
         out.appendChild(secWrap);
-    });
+    } else {
+        out.insertAdjacentHTML("beforeend", `<p class="text-sm text-gray-500">Is category mein abhi items nahi hain.</p>`);
+    }
 }
 
 function makeSilverFeature(sec, flip) {
@@ -305,21 +329,29 @@ function renderCollections() {
         btn.classList.toggle("text-burgundy-900", !on);
         btn.classList.toggle("hover:bg-gold-500/20", !on);
     });
-    const sub = $("sub-nav"), out = $("catalog");
+    const sub = $("sub-nav"), out = $("catalog"), secNav = $("section-nav");
     if (!sub || !out) return;
     sub.innerHTML = "";
     out.innerHTML = "";
-    if (state.metal === "silver") renderSilver(sub, out); else renderMetal(sub, out);
+    if (secNav) secNav.innerHTML = "";
+    if (state.metal === "silver") {
+        if (secNav) secNav.classList.add("hidden");
+        renderSilver(sub, out);
+    } else {
+        if (secNav) secNav.classList.remove("hidden");
+        renderMetal(sub, out);
+    }
 }
 
 function switchMainCategory(metal) {
     state.metal = metal;
+    state.section = "";
     if (metal !== "silver") state.silverSection = "";
     renderCollections();
 }
 
 function openCollection(metal, gender) {
-    window.location.href = `/collections/?metal=${metal}&gender=${gender || 'women'}`;
+    window.location.href = `collections.html?metal=${metal}&gender=${gender || 'women'}`;
 }
 
 function renderHomeTiles() {
