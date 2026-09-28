@@ -126,7 +126,7 @@ if (footerEl) {
                             <p class="text-gray-400">Ground Floor, M-41, Sector 12, Pratap Vihar, Ghaziabad</p>
                             <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
                                 <a href="tel:+918287680527" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 82876 80527</a>
-                                <a href="https://maps.google.com/?q=Ground+Floor+M-41+Sector+12+Pratap+Vihar+Ghaziabad" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
+                                <a href="https://www.google.com/maps/dir//Ground+Floor,+Gorri+Jewellers+and+Sons's+-+Best+Jewellers+In+Ghaziabad,+M-41,+near+VDS+Convent+and+First+Cry+Showroom,+Sector+12,+Block+M,+Pratap+Vihar,+Ghaziabad,+Uttar+Pradesh+201009/" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
                             </div>
                         </div>
                         <div>
@@ -135,7 +135,7 @@ if (footerEl) {
                             <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
                                 <a href="tel:+919810594805" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 98105 94805</a>
                                 <a href="tel:+919821756547" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 98217 56547</a>
-                                <a href="https://maps.google.com/?q=Shop+E-220+Sector+12+Vijay+Nagar+Ghaziabad" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
+                                <a href="https://www.google.com/maps/dir//Gorri+Jewellers+-+best+jewellers+in+Ghaziabad+best+jewellery+shop+in+Vijay+Nagar+ghaziabad,+Shop+No.+E,+220,+Gaushala+Rd,+Sector+12,+Mirzapur,+Pratap+Vihar,+Ghaziabad,+Uttar+Pradesh+201001/" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
                             </div>
                         </div>
                     </div>
