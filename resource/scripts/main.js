@@ -11,15 +11,15 @@ function injectCommonLayouts(activePage) {
         <div class="text-gold-300 text-xs sm:text-sm py-2 px-4 border-b border-gold-500/20">
             <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-1 sm:gap-4">
                 <div class="flex items-center space-x-3">
-                    <span class="bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded-full text-xs font-medium border border-gold-500/40">✨ Authorized Distributor</span>
-                    <span>India's No. 1 Diamond King - <strong>Kisna Diamond</strong></span>
+                    <span class="bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded-full text-xs font-medium border border-gold-500/40">Ghaziabad</span>
+                    <span>Gold, diamond & silver jewellery</span>
                 </div>
                 <div class="flex items-center space-x-4 text-xs">
-					<span class="bg-gold-500 text-burgundy-900 font-bold px-3 py-1 rounded-md shadow-md border border-gold-700 hover:bg-gold-400 hover:scale-105 transition-transform">
-						<i class="fa-solid fa-percent mr-1"></i> Flat 8% Making Charges
+					<span class="bg-gold-500/15 text-gold-200 font-medium px-3 py-1 rounded-md border border-gold-500/30">
+						<i class="fa-solid fa-tag mr-1"></i> Ask about current pricing
 					</span>
                     <span class="hidden md:inline">•</span>
-                    <span><i class="fa-solid fa-award text-gold-400 mr-1"></i> 45+ Years of Trust</span>
+                    <span><i class="fa-solid fa-award text-gold-400 mr-1"></i> Serving since 1980</span>
                     <span>•</span>
                     <a href="tel:+919821756547" class="hover:text-white transition-colors"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> Ghaziabad Showrooms</a>
                 </div>
@@ -32,7 +32,7 @@ function injectCommonLayouts(activePage) {
                             <img src="resource/images/Logo.webp" alt="Gorri Jewellers and Sons Logo" class="w-full h-full object-contain">
                         </div>
                         <div>
-                            <span class="font-serif text-3xl sm:text-4xl font-bold gold-gradient-text">Gorri Jewellers & Sons</span>
+                            <span class="font-serif text-xl sm:text-2xl font-bold gold-gradient-text">Gorri Jewellers & Sons</span>
                         </div>
                     </a>
 
@@ -49,7 +49,7 @@ function injectCommonLayouts(activePage) {
                             <span>WhatsApp Us</span>
                         </a>
 
-                        <button id="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Open menu" class="md:hidden text-gold-400 hover:text-white p-2 rounded-md focus:outline-none">
+                        <button id="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden text-gold-400 hover:text-white p-2 rounded-md focus:outline-none">
                             <i class="fa-solid fa-bars text-2xl"></i>
                         </button>
                     </div>
@@ -85,11 +85,11 @@ if (footerEl) {
                         <span class="font-serif text-lg font-bold gold-gradient-text">Gorri Jewellers & Sons</span>
                     </div>
                     <p class="text-xs text-gray-300 leading-relaxed font-light">
-                        Ghaziabad's premier destination for 100% hallmarked gold, Kisna diamonds, antique jewellery, and silver ornaments with flat 8% making charges.
+                        Explore gold, diamond and silver jewellery at our Pratap Vihar and Vijay Nagar showrooms. Contact us for product details and current pricing.
                     </p>
                     <div class="pt-1">
                         <span class="inline-block text-xs text-gold-400 font-medium bg-gold-500/10 px-3 py-2 rounded border border-gold-500/20">
-                            <i class="fa-regular fa-clock mr-1"></i> Open Wed-Mon: 10:30 AM - 9:30 PM
+                            <i class="fa-regular fa-clock mr-1"></i> Store hours: 10:30 AM - 9:30 PM, Tuesday closed
                         </span>
                     </div>
                 </div>
@@ -108,11 +108,9 @@ if (footerEl) {
                     <div class="space-y-4">
                         <h4 class="font-serif font-bold text-gold-300 text-sm mb-3 pb-1 border-b border-gold-500/30 inline-block">Collections</h4>
                         <ul class="space-y-3 text-xs text-gray-300">
-                            <li>
-							<button onclick="openCollection('gold')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Gold Jewellery</button>
-							<button onclick="openCollection('diamond')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Diamond Collection</button>
-							<button onclick="openCollection('silver')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Silver Ornaments</button>
-							
+                            <li><button onclick="openCollection('gold')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Gold Jewellery</button></li>
+                            <li><button onclick="openCollection('diamond')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Diamond Collection</button></li>
+                            <li><button onclick="openCollection('silver')" class="hover:text-gold-400 block transition-transform duration-200 hover:translate-x-1 py-0.5">Silver Ornaments</button></li>
                         </ul>
                     </div>
                 </div>
@@ -126,7 +124,7 @@ if (footerEl) {
                             <p class="text-gray-400">Ground Floor, M-41, Sector 12, Pratap Vihar, Ghaziabad</p>
                             <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
                                 <a href="tel:+918287680527" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 82876 80527</a>
-                                <a href="https://maps.google.com/?q=Ground+Floor+M-41+Sector+12+Pratap+Vihar+Ghaziabad" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
+                                <a href="https://www.google.com/maps/dir//Ground+Floor,+Gorri+Jewellers+and+Sons's+-+Best+Jewellers+In+Ghaziabad,+M-41,+near+VDS+Convent+and+First+Cry+Showroom,+Sector+12,+Block+M,+Pratap+Vihar,+Ghaziabad,+Uttar+Pradesh+201009/" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
                             </div>
                         </div>
                         <div>
@@ -135,7 +133,7 @@ if (footerEl) {
                             <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
                                 <a href="tel:+919810594805" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 98105 94805</a>
                                 <a href="tel:+919821756547" class="hover:text-gold-400"><i class="fa-solid fa-phone text-gold-400 mr-1"></i> +91 98217 56547</a>
-                                <a href="https://maps.google.com/?q=Shop+E-220+Sector+12+Vijay+Nagar+Ghaziabad" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
+                                <a href="https://www.google.com/maps/dir//Gorri+Jewellers+-+best+jewellers+in+Ghaziabad+best+jewellery+shop+in+Vijay+Nagar+ghaziabad,+Shop+No.+E,+220,+Gaushala+Rd,+Sector+12,+Mirzapur,+Pratap+Vihar,+Ghaziabad,+Uttar+Pradesh+201001/" target="_blank" rel="noopener" class="text-gold-400 hover:underline inline-flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> Map</a>
                             </div>
                         </div>
                     </div>
@@ -376,7 +374,11 @@ function renderHomeTiles() {
 
 function toggleMobileMenu() {
     const menu = $("mobile-menu");
-    if (menu) menu.classList.toggle("hidden");
+    const button = $("mobile-menu-btn");
+    if (!menu || !button) return;
+    const isOpening = menu.classList.contains("hidden");
+    menu.classList.toggle("hidden", !isOpening);
+    button.setAttribute("aria-expanded", String(isOpening));
 }
 
 let lastFocus = null;

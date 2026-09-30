@@ -2,6 +2,8 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #FAF7F2;
     color: #2C0E14;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 .font-serif {
     font-family: 'Playfair Display', serif;
@@ -26,4 +28,18 @@ button:focus-visible, a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto !important; }
     * { transition-duration: 0.01ms !important; }
+}
+::selection { background: #D4AF37; color: #1d080c; }
+.nav-btn { white-space: nowrap; }
+#home-tiles > button { isolation: isolate; }
+#home-tiles > button img { transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+#home-tiles > button:hover img { transform: scale(1.045); }
+#home-tiles > button:focus-visible { outline-offset: 4px; }
+@media (max-width: 639px) {
+    header .text-gold-300 { font-size: .68rem; }
+    header .h-20 { height: 4.25rem; }
+    header img[alt="Gorri Jewellers and Sons Logo"] { max-height: 3.4rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #home-tiles > button img { transition: none; }
 }
