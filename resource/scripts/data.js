@@ -7,18 +7,18 @@ const CATALOG = {
             {
                 "title": "Necklaces & Haars",
                 "items": [
-                    { "f": "gold/Women/Necklaces/Antique-necklace1.webp", "t": "Antique Leaf Choker with Earrings", "tag": "Antique Gold", "w": 603, "h": 543 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace2.webp", "t": "Long Antique Haram with Temple Pendant", "tag": "Antique Gold", "w": 516, "h": 561 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace3.webp", "t": "Temple Pendant Set with Emerald Beads", "tag": "Antique Gold", "w": 415, "h": 462 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace4.webp", "t": "Bridal Choker with Pearl Drops", "tag": "Antique Gold", "w": 631, "h": 432 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace5.webp", "t": "Lakshmi Bridal Choker Set", "tag": "Antique Gold", "w": 543, "h": 627 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace6.webp", "t": "Long Antique Haar with Jhumkas", "tag": "Antique Gold", "w": 624, "h": 510 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace7.webp", "t": "Long Gold Haar with Pearl Pendant", "tag": "Antique Gold", "w": 421, "h": 541 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace8.webp", "t": "Layered Bridal Choker Set", "tag": "Antique Gold", "w": 1024, "h": 964 },
-                    { "f": "gold/Women/Necklaces/Antique-necklace9.webp", "t": "Double-Layer Temple Necklace", "tag": "Antique Gold", "w": 815, "h": 1024 },
-                    { "f": "gold/Women/Necklaces/light-necklace1.webp", "t": "Light Pendant Chain with Earrings", "tag": "Light Weight", "w": 1100, "h": 1100 },
-                    { "f": "gold/Women/Necklaces/light-necklace2.webp", "t": "Light Fringe Necklace with Earrings", "tag": "Light Weight", "w": 416, "h": 761 },
-                    { "f": "gold/Women/Necklaces/light-necklace3.webp", "t": "Light Long Necklace with Pendant", "tag": "Light Weight", "w": 413, "h": 770 }
+                    { "f": "Gold/Women/Necklaces/Antique-necklace1.webp", "t": "Antique Leaf Choker with Earrings", "tag": "Antique Gold", "w": 603, "h": 543 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace2.webp", "t": "Long Antique Haram with Temple Pendant", "tag": "Antique Gold", "w": 516, "h": 561 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace3.webp", "t": "Temple Pendant Set with Emerald Beads", "tag": "Antique Gold", "w": 415, "h": 462 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace4.webp", "t": "Bridal Choker with Pearl Drops", "tag": "Antique Gold", "w": 631, "h": 432 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace5.webp", "t": "Lakshmi Bridal Choker Set", "tag": "Antique Gold", "w": 543, "h": 627 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace6.webp", "t": "Long Antique Haar with Jhumkas", "tag": "Antique Gold", "w": 624, "h": 510 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace7.webp", "t": "Long Gold Haar with Pearl Pendant", "tag": "Antique Gold", "w": 421, "h": 541 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace8.webp", "t": "Layered Bridal Choker Set", "tag": "Antique Gold", "w": 1024, "h": 964 },
+                    { "f": "Gold/Women/Necklaces/Antique-necklace9.webp", "t": "Double-Layer Temple Necklace", "tag": "Antique Gold", "w": 815, "h": 1024 },
+                    { "f": "Gold/Women/Necklaces/light-necklace1.webp", "t": "Light Pendant Chain with Earrings", "tag": "Light Weight", "w": 1100, "h": 1100 },
+                    { "f": "Gold/Women/Necklaces/light-necklace2.webp", "t": "Light Fringe Necklace with Earrings", "tag": "Light Weight", "w": 416, "h": 761 },
+                    { "f": "Gold/Women/Necklaces/light-necklace3.webp", "t": "Light Long Necklace with Pendant", "tag": "Light Weight", "w": 413, "h": 770 }
                 ]
             },
 			{
@@ -34,35 +34,35 @@ const CATALOG = {
 			{
                 "title": "Chains",
                 "items": [
-                    { "f": "gold/Women/Chains/chain4.webp", "t": "Designer Mangalsutra Style Gold Chain", "tag": "Ethnic Gold", "w": 246, "h": 267 },
-                    { "f": "gold/Women/Chains/chain15.webp", "t": "Puffed Heart Gold Pendant with Snake Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
-                    { "f": "gold/Women/Chains/chain2.webp", "t": "Classic Beaded Gold Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
-                    { "f": "gold/Women/Chains/chain7.webp", "t": "Interwoven Braided Pattern Gold Chain", "tag": "Modern Gold", "w": 309, "h": 312 },
-                    { "f": "gold/Women/Chains/chain8.webp", "t": "Textured Mesh Link Gold Chain", "tag": "Traditional Gold", "w": 246, "h": 267 },
-                    { "f": "gold/Women/Chains/chain9.webp", "t": "Faceted Modular Link Gold Chain", "tag": "Traditional Gold", "w": 554, "h": 554 },
-                    { "f": "gold/Women/Chains/chain11.webp", "t": "Delicate Tube and Bead Gold Chain", "tag": "Lightweight Gold", "w": 246, "h": 267 },
-                    { "f": "gold/Women/Chains/chain14.webp", "t": "Geometric Square Mesh Gold Chain", "tag": "Modern Gold", "w": 554, "h": 554 }
+                    { "f": "gold/Women/chains/chain4.webp", "t": "Designer Mangalsutra Style Gold Chain", "tag": "Ethnic Gold", "w": 246, "h": 267 },
+                    { "f": "gold/Women/chains/chain15.webp", "t": "Puffed Heart Gold Pendant with Snake Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
+                    { "f": "gold/Women/chains/chain2.webp", "t": "Classic Beaded Gold Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
+                    { "f": "gold/Women/chains/chain7.webp", "t": "Interwoven Braided Pattern Gold Chain", "tag": "Modern Gold", "w": 309, "h": 312 },
+                    { "f": "gold/Women/chains/chain8.webp", "t": "Textured Mesh Link Gold Chain", "tag": "Traditional Gold", "w": 246, "h": 267 },
+                    { "f": "gold/Women/chains/chain9.webp", "t": "Faceted Modular Link Gold Chain", "tag": "Traditional Gold", "w": 554, "h": 554 },
+                    { "f": "gold/Women/chains/chain11.webp", "t": "Delicate Tube and Bead Gold Chain", "tag": "Lightweight Gold", "w": 246, "h": 267 },
+                    { "f": "gold/Women/chains/chain14.webp", "t": "Geometric Square Mesh Gold Chain", "tag": "Modern Gold", "w": 554, "h": 554 }
                 ]
             },
             {
                 "title": "Rings",
                 "items": [
-                    { "f": "gold/Women/Rings/ring10.webp", "t": "Antique Ruby Flower Ring", "tag": "Antique Gold", "w": 296, "h": 182 },
-                    { "f": "gold/Women/Rings/ring2.webp", "t": "Gold Bead Cocktail Ring", "tag": "Gold Ring", "w": 309, "h": 351 },
-                    { "f": "gold/Women/Rings/ring21.webp", "t": "Light Filigree Ring", "tag": "Light Weight", "w": 447, "h": 447 },
-                    { "f": "gold/Women/Rings/ring22.webp", "t": "Gold Jaali Ring", "tag": "Light Weight", "w": 447, "h": 447 },
-                    { "f": "gold/Women/Rings/ring23.webp", "t": "Antique Gold Statement Ring", "tag": "Antique Gold", "w": 447, "h": 447 }
+                    { "f": "Gold/Women/Rings/ring10.webp", "t": "Antique Ruby Flower Ring", "tag": "Antique Gold", "w": 296, "h": 182 },
+                    { "f": "Gold/Women/Rings/ring2.webp", "t": "Gold Bead Cocktail Ring", "tag": "Gold Ring", "w": 309, "h": 351 },
+                    { "f": "Gold/Women/Rings/ring21.webp", "t": "Light Filigree Ring", "tag": "Light Weight", "w": 447, "h": 447 },
+                    { "f": "Gold/Women/Rings/ring22.webp", "t": "Gold Jaali Ring", "tag": "Light Weight", "w": 447, "h": 447 },
+                    { "f": "Gold/Women/Rings/ring23.webp", "t": "Antique Gold Statement Ring", "tag": "Antique Gold", "w": 447, "h": 447 }
                 ]
             },
             {
                 "title": "Bangles & Kadas",
                 "items": [
-                    { "f": "gold/Women/Bangles/bangles1.webp", "t": "Textured Gold Bangles (Pair)", "tag": "Gold Bangles", "w": 262, "h": 309 },
-                    { "f": "gold/Women/Bangles/bangles2.webp", "t": "Meenakari Gold Bangles", "tag": "Gold Bangles", "w": 344, "h": 268 },
-                    { "f": "gold/Women/Bangles/bangles3.webp", "t": "Antique Gold Kada", "tag": "Antique Gold", "w": 363, "h": 550 },
-                    { "f": "gold/Women/Bangles/bangles4.webp", "t": "Enamel Gold Bangle", "tag": "Gold Bangles", "w": 480, "h": 376 },
-                    { "f": "gold/Women/Bangles/bangles5.webp", "t": "Antique Nakshi Bangles", "tag": "Antique Gold", "w": 1024, "h": 1024 },
-                    { "f": "gold/Women/Bangles/bangles6.webp", "t": "Antique Peacock Bangles", "tag": "Antique Gold", "w": 653, "h": 528 }
+                    { "f": "Gold/Women/Bangles/bangles1.webp", "t": "Textured Gold Bangles (Pair)", "tag": "Gold Bangles", "w": 262, "h": 309 },
+                    { "f": "Gold/Women/Bangles/bangles2.webp", "t": "Meenakari Gold Bangles", "tag": "Gold Bangles", "w": 344, "h": 268 },
+                    { "f": "Gold/Women/Bangles/bangles3.webp", "t": "Antique Gold Kada", "tag": "Antique Gold", "w": 363, "h": 550 },
+                    { "f": "Gold/Women/Bangles/bangles4.webp", "t": "Enamel Gold Bangle", "tag": "Gold Bangles", "w": 480, "h": 376 },
+                    { "f": "Gold/Women/Bangles/bangles5.webp", "t": "Antique Nakshi Bangles", "tag": "Antique Gold", "w": 1024, "h": 1024 },
+                    { "f": "Gold/Women/Bangles/bangles6.webp", "t": "Antique Peacock Bangles", "tag": "Antique Gold", "w": 653, "h": 528 }
                 ]
             }
         ],
@@ -70,47 +70,47 @@ const CATALOG = {
 		{
                 "title": "Chains",
                 "items": [
-                    { "f": "gold/Men/Chains/chain16.webp", "t": "Architectural Block Link Gold Chain", "tag": "Modern Gold", "w": 309, "h": 351 },
-                    { "f": "gold/Men/Chains/chain1.webp", "t": "Classic Textured Barrel Gold Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
-                    { "f": "gold/Men/Chains/chain3.webp", "t": "Geometric Interlinked Modular Gold Chain", "tag": "Contemporary Gold", "w": 309, "h": 312 },
-                    { "f": "gold/Men/Chains/chain5.webp", "t": "Ornate Barrel Motif Gold Chain", "tag": "Traditional Gold", "w": 246, "h": 267 },
-                    { "f": "gold/Men/Chains/chain6.webp", "t": "Regal Studded Spacer Gold Chain", "tag": "Bridal Gold", "w": 554, "h": 554 },
-                    { "f": "gold/Men/Chains/chain10.webp", "t": "Miami Cuban Link Gold Chain", "tag": "Modern Gold", "w": 246, "h": 267 },
-                    { "f": "gold/Men/Chains/chain12.webp", "t": "Interlocking Textured Franco Gold Chain", "tag": "Contemporary Gold", "w": 554, "h": 554 },
-                    { "f": "gold/Men/Chains/chain13.webp", "t": "Timeless Twisted Rope Gold Chain", "tag": "Classic Gold", "w": 554, "h": 554 }
+                    { "f": "gold/men/chains/chain16.webp", "t": "Architectural Block Link Gold Chain", "tag": "Modern Gold", "w": 309, "h": 351 },
+                    { "f": "gold/men/chains/chain1.webp", "t": "Classic Textured Barrel Gold Chain", "tag": "Traditional Gold", "w": 309, "h": 351 },
+                    { "f": "gold/men/chains/chain3.webp", "t": "Geometric Interlinked Modular Gold Chain", "tag": "Contemporary Gold", "w": 309, "h": 312 },
+                    { "f": "gold/men/chains/chain5.webp", "t": "Ornate Barrel Motif Gold Chain", "tag": "Traditional Gold", "w": 246, "h": 267 },
+                    { "f": "gold/men/chains/chain6.webp", "t": "Regal Studded Spacer Gold Chain", "tag": "Bridal Gold", "w": 554, "h": 554 },
+                    { "f": "gold/men/chains/chain10.webp", "t": "Miami Cuban Link Gold Chain", "tag": "Modern Gold", "w": 246, "h": 267 },
+                    { "f": "gold/men/chains/chain12.webp", "t": "Interlocking Textured Franco Gold Chain", "tag": "Contemporary Gold", "w": 554, "h": 554 },
+                    { "f": "gold/men/chains/chain13.webp", "t": "Timeless Twisted Rope Gold Chain", "tag": "Classic Gold", "w": 554, "h": 554 }
                 ]
             },
             {
                 "title": "Kadas & Bracelets",
                 "items": [
-                    { "f": "gold/Men/kada/kda-men1.webp", "t": "Gents Gold Kada with Engraved Pattern", "tag": "Gents Kada", "w": 1024, "h": 1024 },
-                    { "f": "gold/Men/kada/kda-men3.webp", "t": "Gents Gold Kada with Key Pattern", "tag": "Gents Kada", "w": 262, "h": 350 },
-                    { "f": "gold/Men/kada/kda-men4.webp", "t": "Gents Plain Gold Kada", "tag": "Gents Kada", "w": 1254, "h": 1254 },					
-                    { "f": "gold/Men/kada/kda-men5.webp", "t": "Gents Gold Kada with box Pattern", "tag": "Gents Kada", "w": 1254, "h": 1254 },
-                    { "f": "gold/Men/kada/kda-men2.webp", "t": "Gents Gold Chain Bracelet", "tag": "Gents Bracelet", "w": 368, "h": 473 },
-                    { "f": "gold/Men/kada/Bracelet-men1.webp", "t": "Dual-Tone Gold Chain Bracelet with Diamond Accents", "tag": "Gents Bracelet", "w": 262, "h": 350 },
-                    { "f": "gold/Men/kada/Bracelet-men2.webp", "t": "Luxury Gold Chain Bracelet with Greek Key Clasp", "tag": "Gents Bracelet", "w": 262, "h": 350 },
-                    { "f": "gold/Men/kada/Bracelet-men5.webp", "t": "Luxury Gold Bracelet", "tag": "Gents Bracelet", "w": 262, "h": 350 }
+                    { "f": "Gold/Men/Kada/kda-men1.webp", "t": "Gents Gold Kada with Engraved Pattern", "tag": "Gents Kada", "w": 1024, "h": 1024 },
+                    { "f": "Gold/Men/Kada/kda-men3.webp", "t": "Gents Gold Kada with Key Pattern", "tag": "Gents Kada", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/Kada/kda-men4.webp", "t": "Gents Plain Gold Kada", "tag": "Gents Kada", "w": 1254, "h": 1254 },					
+                    { "f": "Gold/Men/Kada/kda-men5.webp", "t": "Gents Gold Kada with box Pattern", "tag": "Gents Kada", "w": 1254, "h": 1254 },
+                    { "f": "Gold/Men/Kada/kda-men2.webp", "t": "Gents Gold Chain Bracelet", "tag": "Gents Bracelet", "w": 368, "h": 473 },
+                    { "f": "Gold/Men/Kada/Bracelet-men1.webp", "t": "Dual-Tone Gold Chain Bracelet with Diamond Accents", "tag": "Gents Bracelet", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/Kada/Bracelet-men2.webp", "t": "Luxury Gold Chain Bracelet with Greek Key Clasp", "tag": "Gents Bracelet", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/Kada/Bracelet-men5.webp", "t": "Luxury Gold Bracelet", "tag": "Gents Bracelet", "w": 262, "h": 350 }
 					
                 ]
             },
             {
                 "title": "Rings",
                 "items": [
-                    { "f": "gold/Men/rings/ring1.webp", "t": "Gents Gold Aesthetic Ring", "tag": "Gents Gold Ring", "w": 1024, "h": 1024 },
-                    { "f": "gold/Men/rings/ring2.webp", "t": "Gents Gold Ring with Box Pattern", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring3.webp", "t": "Gents Ring with Lion Engraved", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },					
-                    { "f": "gold/Men/rings/ring4.webp", "t": "Modern Gents Gold Ring", "tag": "Gents Kada", "w": 1254, "h": 1254 },
-                    { "f": "gold/Men/rings/ring5.webp", "t": "Gents Ring with Warrior Engraved", "tag": "Gents Gold Ring", "w": 368, "h": 473 },
-                    { "f": "gold/Men/rings/ring6.webp", "t": "Gents Ring with Star Engraved", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring7.webp", "t": "Gents Gold Aesthetic Circular Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring8.webp", "t": "Gents Ring Lord Shiva Engraved", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring9.webp", "t": "Gents Ring Engraved Eagle", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring10.webp", "t": "Aesthetic Gents Gold Ring", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },					
-                    { "f": "gold/Men/rings/ring11.webp", "t": "Om Gold Ring for Gents", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },
-                    { "f": "gold/Men/rings/ring12.webp", "t": "Gents Ring with Zig-Zag", "tag": "Gents Gold Ring", "w": 368, "h": 473 },
-                    { "f": "gold/Men/rings/ring13.webp", "t": "Dual-Tone Gents Gold Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
-                    { "f": "gold/Men/rings/ring14.webp", "t": "Luxury Gold Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring1.webp", "t": "Gents Gold Aesthetic Ring", "tag": "Gents Gold Ring", "w": 1024, "h": 1024 },
+                    { "f": "Gold/Men/rings/ring2.webp", "t": "Gents Gold Ring with Box Pattern", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring3.webp", "t": "Gents Ring with Lion Engraved", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },					
+                    { "f": "Gold/Men/rings/ring4.webp", "t": "Modern Gents Gold Ring", "tag": "Gents Kada", "w": 1254, "h": 1254 },
+                    { "f": "Gold/Men/rings/ring5.webp", "t": "Gents Ring with Warrior Engraved", "tag": "Gents Gold Ring", "w": 368, "h": 473 },
+                    { "f": "Gold/Men/rings/ring6.webp", "t": "Gents Ring with Star Engraved", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring7.webp", "t": "Gents Gold Aesthetic Circular Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring8.webp", "t": "Gents Ring Lord Shiva Engraved", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring9.webp", "t": "Gents Ring Engraved Eagle", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring10.webp", "t": "Aesthetic Gents Gold Ring", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },					
+                    { "f": "Gold/Men/rings/ring11.webp", "t": "Om Gold Ring for Gents", "tag": "Gents Gold Ring", "w": 1254, "h": 1254 },
+                    { "f": "Gold/Men/rings/ring12.webp", "t": "Gents Ring with Zig-Zag", "tag": "Gents Gold Ring", "w": 368, "h": 473 },
+                    { "f": "Gold/Men/rings/ring13.webp", "t": "Dual-Tone Gents Gold Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
+                    { "f": "Gold/Men/rings/ring14.webp", "t": "Luxury Gold Ring", "tag": "Gents Gold Ring", "w": 262, "h": 350 },
 					
                 ]
             }
@@ -162,11 +162,11 @@ const CATALOG = {
             {
                 "title": "Rings",
                 "items": [
-                    { "f": "Diamond/Men/rings/Gents_ring1.webp", "t": "Gents Diamond Signet Ring", "tag": "Gents Diamond Ring", "w": 309, "h": 351 },
-                    { "f": "Diamond/Men/rings/Gents_ring2.webp", "t": "Gents Diamond Halo Band Ring", "tag": "Gents Diamond Ring", "w": 309, "h": 351 },
-                    { "f": "Diamond/Men/rings/Gents_ring3.webp", "t": "Gents Baguette Diamond Ring", "tag": "Gents Diamond Ring", "w": 450, "h": 465 },
-                    { "f": "Diamond/Men/rings/Gents_ring4.webp", "t": "Gents Solitaire Ring", "tag": "Gents Diamond Ring", "w": 447, "h": 447 },
-                    { "f": "Diamond/Men/rings/Gents_ring5.webp", "t": "Gents Diamond Band Ring", "tag": "Gents Diamond Ring", "w": 1600, "h": 1600 }
+                    { "f": "Diamond/Men/Rings/Gents_ring1.webp", "t": "Gents Diamond Signet Ring", "tag": "Gents Diamond Ring", "w": 309, "h": 351 },
+                    { "f": "Diamond/Men/Rings/Gents_ring2.webp", "t": "Gents Diamond Halo Band Ring", "tag": "Gents Diamond Ring", "w": 309, "h": 351 },
+                    { "f": "Diamond/Men/Rings/Gents_ring3.webp", "t": "Gents Baguette Diamond Ring", "tag": "Gents Diamond Ring", "w": 450, "h": 465 },
+                    { "f": "Diamond/Men/Rings/Gents_ring4.webp", "t": "Gents Solitaire Ring", "tag": "Gents Diamond Ring", "w": 447, "h": 447 },
+                    { "f": "Diamond/Men/Rings/Gents_ring5.webp", "t": "Gents Diamond Band Ring", "tag": "Gents Diamond Ring", "w": 1600, "h": 1600 }
                 ]
             }
         ]
@@ -203,11 +203,26 @@ const SILVER = [
                 "d": "Silver payals in light and heavy designs. Message us on WhatsApp for weight and today's price."
             }
         ]
+    },
+	{
+        "id": "Bichiya",
+        "label": "Bichiya",
+        "intro": "Silver Bichiyas in light and heavy designs..",
+        "items": [
+            {
+                "f": "Silver/Bichiya/Bichiya.webp",
+                "t": "Silver Bichiya Collection",
+                "tag": "Silver Bichiya",
+                "w": 1536,
+                "h": 1024,
+                "d": "Silver Bichiyas in light and heavy designs. Message us on WhatsApp for weight and today's price."
+            }
+        ]
     }
 ];
 
 const HOME_TILES = [
-    { "f": "gold/Women/Necklaces/Antique-necklace5.webp", "label": "Gold Jewellery", "sub": "Antique & Lightweight Collection", "metal": "gold", "gender": "women" },
+    { "f": "Gold/Women/Necklaces/Antique-necklace5.webp", "label": "Gold Jewellery", "sub": "Antique & Lightweight Collection", "metal": "gold", "gender": "women" },
     { "f": "Diamond/Women/Necklaces/Diamond-necklace4.webp", "label": "Diamond Jewellery", "sub": "Kisna Diamond Collection", "metal": "diamond", "gender": "women" },
     { "f": "Silver/Bartan/silverCoins_Bartan.webp", "label": "Silver Collection", "sub": "Bartan, Coins & Payals", "metal": "silver", "gender": null, "pos": "30% center" }
 ];
